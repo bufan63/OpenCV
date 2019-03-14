@@ -8,7 +8,7 @@ from CVtools import *
 from Harris import *
 
 #im=Image.open('f.jpg')
-pil_im1=Image.open('i1.jpg').convert('L')
+pil_im1=Image.open('3.jpg').convert('L')
 im1=array(pil_im1)
 pil_im2=Image.open('s2.jpg').convert('L')
 im2=array(pil_im2)
