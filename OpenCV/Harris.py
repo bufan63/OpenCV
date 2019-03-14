@@ -25,7 +25,7 @@ class Harris(object):
 
         return Wdet / Wtr
 
-    def get_harris_points(harrisim,min_dist=10,threshold=0.01):
+    def get_harris_points(harrisim,min_dist=10,threshold=0.05):
         """ 从一副Haris响应图像中返回角点。 min_dist为分割角点和图像边界的最少像素数目"""
 
         #寻找高于阈值的候角点
